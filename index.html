@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template-Six</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top " >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="Logo Img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3 active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3" href="#">Servecis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3" href="#">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link p-lg-3" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="search ps-3 pe-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="btn rounded-pill " href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start landing -->
+    <div class="landing d-flex justify-content-center align-items-center">
+        <div class="content text-center text-light">
+            <h1>Taste the Creativity</h1>
+            <p class="mb-4 text-white-50">We make awesome graphic and web design</p>
+            <a class="btn rounded-pill " href="#">Get Started</a>
+        </div>
+    </div>
+    <!-- End landing -->
+
+    <!-- Start Servecis -->
+    <div class="servecis text-center p-4">
+        <div class="title mb-4">
+            <img class="mb-3" src="imgs/title.png" alt="">
+            <h2 class="fw-bold">We are Good at</h2>
+            <p class="position-relative mb-5 special">SOME OF THESE STUFF UNDER</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-1">
+                        <div class="icon-holder position-relative ">
+                            <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-pencil mb-3 position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mb-3">GRAPHIC DESIGN</h2>
+                        <p class="text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-1">
+                        <div class="icon-holder position-relative">
+                            <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-desktop mb-3 position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mb-3">GRAPHIC DESIGN</h2>
+                        <p class="text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-1">
+                        <div class="icon-holder position-relative">
+                            <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                            <i class="fa-solid fa-plug mb-3 position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mb-3">GRAPHIC DESIGN</h2>
+                        <p class="text-black-50">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Servecis -->
+
+    <!-- Start Work -->
+    <div class="work text-center p-4">
+        <div class="title mb-4">
+            <img class="mb-3" src="imgs/title.png" alt="">
+            <h2 class="fw-bold">We are Good at</h2>
+            <p class="position-relative mb-5 special">PREPARE TO BE AMAZED</p>
+        </div>
+        <div class="container">
+
+            <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-pill " id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button" role="tab" aria-controls="pills-All" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill text-black" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill text-black" id="pills-Code-tab" data-bs-toggle="pill" data-bs-target="#pills-Code" type="button" role="tab" aria-controls="pills-Code" aria-selected="false">Code</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill text-black" id="pills-Photo-tab" data-bs-toggle="pill" data-bs-target="#pills-Photo" type="button" role="tab" aria-controls="pills-Photo" aria-selected="false">Photo</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab" tabindex="0">
+                        <div class="row g-3">
+                            <div class="col-lg-3 col-md-4 ">
+                                <div class="box photo position-relative">
+                                    <img src="imgs/work-01.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="box  photo position-relative">
+                                    <img src="imgs/work-02.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="box  photo position-relative">
+                                    <img src="imgs/work-03.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 ">
+                                <div class="box photo position-relative">
+                                    <img src="imgs/work-04.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="box  photo position-relative">
+                                    <img src="imgs/work-05.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 ">
+                                <div class="box photo position-relative">
+                                    <img src="imgs/work-06.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 ">
+                                <div class="box photo position-relative">
+                                    <img src="imgs/work-07.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-4 ">
+                                <div class="box photo position-relative">
+                                    <img src="imgs/work-08.jpg" class="w-100" alt="">
+                                    <div class="layer d-flex justify-content-center align-items-center ">
+                                        <h2 class="text-white fw-bold">Application</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-4 ">
+                            <div class="box photo position-relative">
+                                <img src="imgs/work-06.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-4 ">
+                            <div class="box photo position-relative">
+                                <img src="imgs/work-07.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-02.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-03.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Code" role="tabpanel" aria-labelledby="pills-Code-tab" tabindex="0">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-02.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-03.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3 col-md-4 ">
+                            <div class="box photo position-relative">
+                                <img src="imgs/work-01.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-02.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Photo" role="tabpanel" aria-labelledby="pills-Photo-tab" tabindex="0">
+                    <div class="row g-3">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-02.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="box  photo position-relative">
+                                <img src="imgs/work-03.jpg" class="w-100" alt="">
+                                <div class="layer d-flex justify-content-center align-items-center ">
+                                    <h2 class="text-white fw-bold">Application</h2>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="btn rounded-pill mt-3 ps-4 pe-4" href="#">I Want More</a>
+
+        </div>
+    </div>
+    <!-- End Work -->
+
+    <!-- Start Stuff -->
+    <div class="stuff  text-center pt-4">
+        <div class="title mb-4">
+            <img class="mb-3" src="imgs/title.png" alt="">
+            <h2 class="fw-bold">We are Good at</h2>
+            <p class="position-relative mb-5 special">PREPARE TO BE AMAZED</p>
+            <p class="text-black-50 pp">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-md-start">
+                    <h3>Retina Design</h3>
+                    <p class="text-black-50">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+                    <p class="text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                    <a class="btn rounded-pill ps-3 pe-3 mb-4" href="#">Login</a>
+                </div>
+                <div class="col-lg-8">
+                    <img src="imgs/laptop.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Stuff -->
+
+
+    <!-- Start Team -->
+    <div class="team text-center p-5">
+        <h2 class="hh">Meet The Team</h2>
+        <p class="text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="box bg-white">
+                        <img src="imgs/team-1.png" class="w-100" alt="">
+                        <h2>Luke Skywalker</h2>
+                        <p class="p-3 text-black-50">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box bg-white">
+                        <img src="imgs/team-2.png" class="w-100" alt="">
+                        <h2>Luke Skywalker</h2>
+                        <p class="p-3 text-black-50">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box bg-white"">
+                        <img src="imgs/team-3.png" class="w-100" alt="">
+                        <h2>Luke Skywalker</h2>
+                        <p class="p-3 text-black-50">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="box bg-white"">
+                        <img src="imgs/team-4.png" class="w-100" alt="">
+                        <h2>Luke Skywalker</h2>
+                        <p class="p-3 text-black-50">“I don't understand how we got by those troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Team -->
+
+    <!-- Start Items -->
+    <div class="items p-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center  mb-3 mt-3">
+                        <img src="imgs/tech-1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center align-items-center mb-3 mt-3">
+                        <img src="imgs/tech-2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center align-items-center mb-3 mt-3">
+                        <img src="imgs/tech-3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center align-items-center mb-3 mt-3">
+                        <img src="imgs/tech-4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center align-items-center mb-3 mt-3">
+                        <img src="imgs/tech-1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="box d-flex justify-content-center align-items-center mb-3 mt-3">
+                        <img src="imgs/tech-2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Items -->
+
+    <!-- Start Section -->
+    <div class="section text-center p-5">
+        <div class="container">
+            <h2 class="text-white">Start Your Project Now</h2>
+            <p class="text-white-50 mb-4">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+            <a class="btn rounded-pill ps-3 pe-3 text-uppercase" href="#">start project</a>
+        </div>
+    </div>
+    <!-- Start Section -->
+
+
+    <!-- Start Blog -->
+    <div class="blog text-center p-5">
+        <div class="title mb-4">
+            <img class="mb-3" src="imgs/title.png" alt="">
+            <h2 class="fw-bold">We are Good at</h2>
+            <p class="position-relative mb-5 special">SOME OF THESE STUFF UNDER</p>
+        </div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="imgs/blog-1.jpg" class="img-fluid mb-2" alt="">
+                        <p class="text-black-50 card-text text-start ms-3">Jan 17, 2022</p>
+                        <h4 class="text-start card-title ms-3">Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="imgs/blog-2.jpg" class="img-fluid mb-2" alt="">
+                        <p class="text-black-50 card-text text-start ms-3">Jan 17, 2022</p>
+                        <h4 class="card-title text-start ms-3">Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="imgs/blog-3.jpg" class="img-fluid mb-2" alt="">
+                        <p class="text-black-50 text-start card-text ms-3">Jan 17, 2022</p>
+                        <h4 class="text-start card-title ms-3">Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+            </div>
+            <a class="btn rounded-pill ps-3 pe-3 text-uppercase" href="#">more stories</a>
+        </div>
+    </div>
+    <!-- End Blog -->
+
+    <!-- Start Subscribe -->
+    <div class="subscribe p-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 class="fw-bold">Subscribe to our Newsletter:</h4>
+                </div>
+                <div class="col-lg-7 col-md-6 mb-4">
+                    <input type="email" class="w-100 bg-transparent" placeholder="Enter Email Address">
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <a class="btn rounded-pill ps-3 pe-3 text-uppercase" href="#">subscribe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Subscribe -->
+
+
+    <!-- Start Footer -->
+    <div class="footer p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box  mb-4">
+                        <img src="imgs/logo.png" class="img-fluid mb-4" alt="">
+                        <p class="text-white-50 mb-4">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        <p class="ppp text-white-50">Created By <span>Graphberryva</span></p>
+                        <p class="pppp text-white-50">&copy; 2022 - <span>Bondi Inc</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 ">
+                    <div class="box  mb-4">
+                        <h4 class="text-white">Links</h4>
+                        <p class="text-white-50">home</p>
+                        <p class="text-white-50">Our Services</p>
+                        <p class="text-white-50">Portfolio</p>
+                        <p class="text-white-50">Testimonials</p>
+                        <p class="text-white-50">Support</p>
+                        <p class="text-white-50">Terms and Condition</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="box  mb-4">
+                        <h4 class="text-white">About Us</h4>
+                        <p class="text-white-50">Sign In</p>
+                        <p class="text-white-50">Register</p>
+                        <p class="text-white-50">About Us</p>
+                        <p class="text-white-50">Blog</p>
+                        <p class="text-white-50">Contact Us</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box  mb-4">
+                        <h4 class="text-white">Contact Us</h4>
+                        <p class="text-white-50 mb-4">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                        <a class="btn rounded-pill ps-3 pe-3 mb-5" href="#">emadnasef86@gmail.com</a>
+                        <div class="links d-flex align-items-center">
+                            <i class="fa-brands fa-facebook me-3"></i>
+                            <i class="fa-brands fa-twitch me-3"></i>
+                            <i class="fa-brands fa-twitter me-3"></i>
+                            <i class="fa-brands fa-google me-3"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+
+
+
+    
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
